@@ -1,0 +1,37 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container" style="text-align:center">
+  <div class="row">
+      <table class="table">
+          <thead class="thead-inverse">
+          <tr>
+              <th class="text-center">User ID</th>
+              <th class="text-center">ID</th>
+              <th class="text-center">Title</th>
+              <th class="text-center">Body</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let user of _usersArray">
+              <td class="text-center" style="width: 15px;">{{user.id}}</td>
+              <td class="text-center" style="width: 15px;">{{user.name}}</td>
+              <td class="text-center" style="width: 200px;">{{user.password}}</td>
+              <td class="text-center">{{user.email}}</td>
+          </tr>
+          </tbody>
+      </table>
+  </div>
+</div>
+
+
+<!-- <ul>
+  <li>
+    <h2><a target="_blank" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" href="https://blog.angular.io//">Angular blog</a></h2>
+  </li>
+</ul> -->
+
